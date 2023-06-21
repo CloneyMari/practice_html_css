@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
 body {
     font-family: sans-serif;
 }
@@ -34,6 +40,9 @@ body {
     color: hotpink;
 }
 .dropdown_menu {
+    display: none;
+}
+.menu_bar ul li a:hover .dropdown_menu {
     display: block;
     position: absolute;
     left: 0;
@@ -49,4 +58,9 @@ body {
     width: 150px;
     padding: 10px;
 
+}
+
+/* Showcase */
+#showcase {
+   background: url("./images/photo-2.jpg");
 }
