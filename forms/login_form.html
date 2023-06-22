@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<style>
+    body {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        font-family: montserrat;
+        background: #b8c1ec;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .center {
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        /*transform: translate(-50, -50%);*/
+        /*text-align: center;*/
+        padding-top: 50px;
+        /*border-style: solid;*/
+        /*height: 300px;*/
+        /*width: 300px;*/
+
+    }
+
+    #container{
+        background: white;
+        margin-top: 350px;
+        /*text-align: center;*/
+        border-style: solid;
+        height: 350px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 10px;
+    }
+    #login-text {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .text-credentials {
+        height: 5px;
+        padding: 20px;
+    }
+    .pword {
+        font-size: 12px;
+        padding: 10px 20px;
+        text-align: right;
+
+
+
+
+    }
+    #sub {
+        display: inline-block;
+        background: #ff9090;
+        color: white;
+        font-size: 14px;
+        padding: 5px 30px;
+        margin: 0px;
+        border-radius: 8px;
+        transition: all 0.3s linear;
+        text-decoration: none;
+
+    }
+    .signup_link {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+</style>
+<body>
+    <div class="center">
+        <div id="container">
+            <h1 id="login-text">Login</h1>
+            <form method="post">
+                <div style="text-align: center">
+                <div method="text-field" class="text-credentials">
+                    <input type="text" required placeholder="Username">
+
+                </div>
+                <div method="text-field" class="text-credentials">
+                    <input type="password" required placeholder="Password">
+
+                </div>
+                <div style="text-align: left">Forgot Password?</div>
+                <input id="sub" type="submit" value="Login">
+                <div class="signup_link">
+                    Not a member? <a href="#">Signup</a>
+                </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+</html>
